@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Presupuesto</title>
+    
+</head>
+<body>
+    <header>
+        <img src="../Imagenes/LOGO (1).png" width="200px" height="200px" alt="logo" id="logo">
+        <nav> 
+            
+            <div class="item1"><a href="../index.html">Inicio</a></div>
+            <div class="item2"><a href="sobre-nosotros.html">Sobre nosotros</a></div>
+            <div class="item3"><a href="https://www.instagram.com/jreparaciones.sn/" target="_blank">Instagram</a></div>
+            <div class="item4"><a href="https://api.whatsapp.com/send?phone=543364249936&text=Hola, Nececito mas informacion!" target="_blank">WhatsApp</a></div>
+            <div class="item5">
+                <a href="./presup.html">Presupuesto</a>
+            </div>
+        
+        </nav>
+    </header>
+<form>
+    <h1>Presupuesto</h1>
+    Nombre:<input type="text" maxlength="10" required>
+    
+    Apellido:<input type="text" maxlength="10" required>
+    
+    Email:<input type="text" maxlength="30" required>
+   
+    WhatsApp:<input type="text" maxlength="10" required>
+    
+    Modelo:<input type="text" maxlength="20" required>
+    
+    A reparar:<select name="servicio" id="servicio" required>
+        <option value="1">Modulo</option>
+        <option value="2">Bateria</option>
+        <option value="3">Pin de carga</option>
+        <option value="4">Otro</option>
+    </select>
+    
+        Otro:<input type="text" >
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Cancelar">
+</form>
+    
+</body>
+</html>
